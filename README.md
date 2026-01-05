@@ -16,25 +16,25 @@ Pillow (PIL): Para el procesamiento de imágenes y obtención de dimensiones.
 fpdf: Para la generación del documento PDF.  
 tqdm: Para las barras de progreso en la terminal.  
 Puedes instalarlas todas ejecutando:
-
-Bash
+```Bash
     pip install requests Pillow fpdf tqdm
-    
+```
 **🚀 Modo de Uso**
 Clona este repositorio o descarga el archivo .py.
 Busca el libro: Ve al sitio de la CONALITEG Histórico y selecciona el libro que deseas.  
 Copia la URL: Asegúrate de copiar la URL de la página de visualización (ejemplo: https://historico.conaliteg.gob.mx/H1972P6MA094.htm).
 Ejecuta el script:
-Bash
+```Bash
   python nombre_del_archivo.py
+```
 Pega la URL cuando el script lo solicite y presiona Enter.
 
 El script creará una carpeta temporal para las imágenes y, al finalizar, generará el PDF en la raíz del proyecto.
 
 **📂 Estructura de Salida**
-Al procesar un libro, el script generará:
-conaliteg_images_[CODIGO]/: Una carpeta con todas las páginas en formato .jpg.
-conaliteg_book_[CODIGO].pdf: El archivo final listo para leer o imprimir.
+Al procesar un libro, el script generará:  
+conaliteg_images_[CODIGO]/: Una carpeta con todas las páginas en formato .jpg.  
+conaliteg_book_[CODIGO].pdf: El archivo final listo para leer o imprimir.  
 
 **⚠️ Aviso Legal**
 Este proyecto ha sido creado con fines exclusivamente educativos y de uso personal. El contenido de los libros es propiedad de la Secretaría de Educación Pública (SEP) de México. Se recomienda respetar los derechos de autor y utilizar esta herramienta de manera responsable.
